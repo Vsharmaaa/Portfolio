@@ -25,7 +25,7 @@ const Projects = () => {
       <div className="project">
         <h3>The Maze Game</h3>
         <p>Leveraging Unreal Engine 5, "Maze Game" is a dynamic, visually engaging puzzle labyrinth with a responsive user interface, designed for a seamless experience across different devices. The game is built with modular components and individual assets, featuring key elements like strategic portal use, and a lock-and-key mechanism for unlocking new areas. It integrates on-screen health and armor display with progress bars, enhancing player immersion. Additionally, the game includes damage-over-time zones, adding a layer of challenge. Prioritizing performance, "Maze Game" uses Unreal Engine's scripting tools and advanced AI for a personalized, engaging player journey. The project upholds a clean, efficient codebase, meeting industry standards for readability and maintainability.</p>
-        <a href="#">View on GitHub</a>
+        <a href="https://github.com/Vsharmaaa/mazeGame">View on GitHub</a>
       </div>
     </section>
   );

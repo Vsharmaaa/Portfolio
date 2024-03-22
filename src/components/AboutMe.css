@@ -1,0 +1,29 @@
+#introduction {
+    padding: 50px 10%;
+    background-color: #f4f4f4; /* Soft background color */
+    color: #333; /* Dark grey text for contrast */
+    line-height: 1.6; /* Space out the lines for readability */
+    border-radius: 8px; /* Rounded corners for the container */
+    max-width: 800px; /* Max width for the text container */
+    margin: 4rem auto; /* Center the section and add margin from top and bottom */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  #introduction h2 {
+    color: #232f3e; /* Dark color for the heading */
+    margin-bottom: 1rem;
+    text-align: center; /* Center the heading */
+  }
+  
+  #introduction p {
+    margin-bottom: 1rem; /* Space between paragraphs */
+    font-size: 1rem; /* Maintain font size for readability */
+    text-align: justify; /* Justify text for a neat look */
+  }
+  
+  @media (max-width: 768px) {
+    #introduction {
+      padding: 50px 5%; /* Less padding on smaller screens */
+    }
+  }
+  

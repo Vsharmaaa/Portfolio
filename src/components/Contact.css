@@ -1,0 +1,45 @@
+#contact {
+  background-color: #f4f4f4;
+  padding: 40px;
+  margin: 4rem auto;
+  max-width: 800px; /* Maximum width of the card */
+  border-radius: 8px; /* Rounded corners for the container */
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* Center align the items for a better look on the card */
+  gap: 20px; /* Space between elements */
+}
+
+#contact h2 {
+  padding-left: 70px;
+  font-size: 2rem; /* Larger font size for the heading */
+  margin-bottom: 1rem;
+  color: black; /* Dark color for the text */
+  text-align: left;
+}
+
+#contact h3 {
+  font-size: 1rem; /* Maintain font size for readability */
+  color:#616d65; /* Dark color for the text */
+  line-height: 1.6; /* Space out the lines for readability */
+  padding-left: 240px;
+  text-align: left; /* Center the text */
+}
+
+/* Style for links and phone number */
+#contact a, #contact p {
+  margin-bottom: 0.5rem; /* Space between contact elements */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  #contact {
+    padding: 40px;
+    width: 90%; /* Adjust width on smaller screens for some space around */
+  }
+}
+.underline {
+  text-decoration: underline;
+}
+
